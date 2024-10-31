@@ -1,0 +1,31 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "16.0.0-dev"
+    },
+    "crm": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "fd23d66ccd10ee5d0472d1debfc50951091d4459",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "2.0.0-dev"
+    },
+    "antar": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "44cc85dc0833522b8c7380814f60d3306b925a89",
+            "branch": "antar"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    }
+}

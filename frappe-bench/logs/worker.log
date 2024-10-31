@@ -1,0 +1,392 @@
+2024-10-30 11:51:40,294 Worker rq:worker:c5597ec80bdd47ae8667cdd13de7431b started with PID 7577, version 1.16.2
+2024-10-30 11:51:40,294 Subscribing to channel rq:pubsub:c5597ec80bdd47ae8667cdd13de7431b
+2024-10-30 11:51:40,299 *** Listening on workspace-frappe-bench:short, workspace-frappe-bench:default, workspace-frappe-bench:long...
+2024-10-30 11:51:40,299 Cleaning registries for queue: workspace-frappe-bench:short
+2024-10-30 11:51:40,302 Cleaning registries for queue: workspace-frappe-bench:default
+2024-10-30 11:51:40,304 Cleaning registries for queue: workspace-frappe-bench:long
+2024-10-30 11:56:25,825 Worker c5597ec80bdd47ae8667cdd13de7431b [PID 7577]: warm shut down requested
+2024-10-30 11:56:25,841 Unsubscribing from channel rq:pubsub:c5597ec80bdd47ae8667cdd13de7431b
+2024-10-30 11:56:35,366 Worker rq:worker:76ba75e02417422fad1874b4c00de792 started with PID 11690, version 1.16.2
+2024-10-30 11:56:35,372 Subscribing to channel rq:pubsub:76ba75e02417422fad1874b4c00de792
+2024-10-30 11:56:35,401 *** Listening on workspace-frappe-bench:short, workspace-frappe-bench:default, workspace-frappe-bench:long...
+2024-10-30 11:56:35,406 Cleaning registries for queue: workspace-frappe-bench:short
+2024-10-30 11:56:35,422 Cleaning registries for queue: workspace-frappe-bench:default
+2024-10-30 11:56:35,433 Cleaning registries for queue: workspace-frappe-bench:long
+2024-10-30 11:58:37,624 Worker 76ba75e02417422fad1874b4c00de792 [PID 11690]: warm shut down requested
+2024-10-30 11:58:37,638 Unsubscribing from channel rq:pubsub:76ba75e02417422fad1874b4c00de792
+2024-10-30 11:59:15,176 Worker rq:worker:cd11d919645f4546b94fa3d1842290ac started with PID 13385, version 1.16.2
+2024-10-30 11:59:15,176 Subscribing to channel rq:pubsub:cd11d919645f4546b94fa3d1842290ac
+2024-10-30 11:59:15,182 *** Listening on workspace-frappe-bench:short, workspace-frappe-bench:default, workspace-frappe-bench:long...
+2024-10-30 11:59:15,190 Cleaning registries for queue: workspace-frappe-bench:short
+2024-10-30 11:59:15,195 Cleaning registries for queue: workspace-frappe-bench:default
+2024-10-30 11:59:15,196 Cleaning registries for queue: workspace-frappe-bench:long
+2024-10-30 12:00:00,765 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'a9..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8fl6nsj)
+2024-10-30 12:00:01,305 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8fl6nsj)
+2024-10-30 12:00:01,305 Result is kept for 600 seconds
+2024-10-30 12:00:01,312 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j9k1t4)
+2024-10-30 12:00:01,665 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j9k1t4)
+2024-10-30 12:00:01,665 Result is kept for 600 seconds
+2024-10-30 12:00:01,672 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b84ohir3)
+2024-10-30 12:00:02,147 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b84ohir3)
+2024-10-30 12:00:02,147 Result is kept for 600 seconds
+2024-10-30 12:00:02,155 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'a9b8j5mckk'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 12:00:02,593 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 12:00:02,593 Result is kept for 600 seconds
+2024-10-30 12:00:02,601 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'a9b8..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b849bqa6)
+2024-10-30 12:00:02,986 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b849bqa6)
+2024-10-30 12:00:02,986 Result is kept for 600 seconds
+2024-10-30 12:00:02,993 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b877j9mt)
+2024-10-30 12:00:03,407 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b877j9mt)
+2024-10-30 12:00:03,407 Result is kept for 600 seconds
+2024-10-30 12:00:03,414 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b83ib571)
+2024-10-30 12:00:03,797 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b83ib571)
+2024-10-30 12:00:03,797 Result is kept for 600 seconds
+2024-10-30 12:00:03,804 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 12:00:04,208 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 12:00:04,209 Result is kept for 600 seconds
+2024-10-30 12:00:04,218 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.core.doctype.prepared_report.prepared_report.expire_st..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8m998k2)
+2024-10-30 12:00:04,584 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8m998k2)
+2024-10-30 12:00:04,584 Result is kept for 600 seconds
+2024-10-30 12:00:04,590 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8u6flv8)
+2024-10-30 12:00:05,016 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8u6flv8)
+2024-10-30 12:00:05,017 Result is kept for 600 seconds
+2024-10-30 12:00:05,023 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'a9b8aqcge3'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 12:00:05,551 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 12:00:05,551 Result is kept for 600 seconds
+2024-10-30 12:00:05,558 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 12:00:06,042 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 12:00:06,042 Result is kept for 600 seconds
+2024-10-30 12:00:34,521 Worker cd11d919645f4546b94fa3d1842290ac [PID 13385]: warm shut down requested
+2024-10-30 12:00:34,527 Unsubscribing from channel rq:pubsub:cd11d919645f4546b94fa3d1842290ac
+2024-10-30 17:18:48,118 Worker rq:worker:115e958677544c6f85562310f8a5c3c7 started with PID 4882, version 1.16.2
+2024-10-30 17:18:48,133 Subscribing to channel rq:pubsub:115e958677544c6f85562310f8a5c3c7
+2024-10-30 17:18:48,148 *** Listening on workspace-frappe-bench:short, workspace-frappe-bench:default, workspace-frappe-bench:long...
+2024-10-30 17:18:48,149 Cleaning registries for queue: workspace-frappe-bench:short
+2024-10-30 17:18:48,154 Cleaning registries for queue: workspace-frappe-bench:default
+2024-10-30 17:18:48,162 Cleaning registries for queue: workspace-frappe-bench:long
+2024-10-30 17:20:00,821 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b84ohir3)
+2024-10-30 17:20:01,387 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b84ohir3)
+2024-10-30 17:20:01,387 Result is kept for 600 seconds
+2024-10-30 17:20:01,395 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:20:01,821 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:20:01,822 Result is kept for 600 seconds
+2024-10-30 17:20:01,830 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.link_count.update_link_count', 'scheduled_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8lr8u29)
+2024-10-30 17:20:02,241 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8lr8u29)
+2024-10-30 17:20:02,241 Result is kept for 600 seconds
+2024-10-30 17:20:02,248 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.page.backups.backups.delete_downloadable_backups'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b82gi5mn)
+2024-10-30 17:20:02,648 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b82gi5mn)
+2024-10-30 17:20:02,648 Result is kept for 600 seconds
+2024-10-30 17:20:02,655 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j9k1t4)
+2024-10-30 17:20:03,109 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j9k1t4)
+2024-10-30 17:20:03,110 Result is kept for 600 seconds
+2024-10-30 17:20:03,116 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b83ib571)
+2024-10-30 17:20:03,504 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b83ib571)
+2024-10-30 17:20:03,504 Result is kept for 600 seconds
+2024-10-30 17:20:03,511 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'a9b8aqcge3'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:20:03,852 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:20:03,853 Result is kept for 600 seconds
+2024-10-30 17:20:03,870 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b877j9mt)
+2024-10-30 17:20:04,354 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b877j9mt)
+2024-10-30 17:20:04,354 Result is kept for 600 seconds
+2024-10-30 17:20:04,364 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8b29180)
+2024-10-30 17:20:05,089 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8b29180)
+2024-10-30 17:20:05,089 Result is kept for 600 seconds
+2024-10-30 17:20:05,096 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'a9b8j5mckk'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:20:05,609 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:20:05,609 Result is kept for 600 seconds
+2024-10-30 17:20:05,616 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.user_settings.sync_user_settings', 'schedu..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b85epbij)
+2024-10-30 17:20:05,993 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b85epbij)
+2024-10-30 17:20:05,994 Result is kept for 600 seconds
+2024-10-30 17:20:06,000 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'a9b8..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b849bqa6)
+2024-10-30 17:20:06,434 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b849bqa6)
+2024-10-30 17:20:06,434 Result is kept for 600 seconds
+2024-10-30 17:20:06,444 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8u6flv8)
+2024-10-30 17:20:06,841 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8u6flv8)
+2024-10-30 17:20:06,841 Result is kept for 600 seconds
+2024-10-30 17:20:06,848 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.newsletter.newsletter.send_scheduled_ema..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b83omumv)
+2024-10-30 17:20:07,300 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b83omumv)
+2024-10-30 17:20:07,301 Result is kept for 600 seconds
+2024-10-30 17:20:07,308 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.core.doctype.prepared_report.prepared_report.expire_st..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8m998k2)
+2024-10-30 17:20:07,651 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8m998k2)
+2024-10-30 17:20:07,651 Result is kept for 600 seconds
+2024-10-30 17:20:07,657 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'a9..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8fl6nsj)
+2024-10-30 17:20:08,000 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8fl6nsj)
+2024-10-30 17:20:08,000 Result is kept for 600 seconds
+2024-10-30 17:20:08,006 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_hourly_updates', 'sched..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8366j3n)
+2024-10-30 17:20:08,426 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8366j3n)
+2024-10-30 17:20:08,427 Result is kept for 600 seconds
+2024-10-30 17:20:08,433 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.personal_data_deletion_request.persona..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8jj8lbk)
+2024-10-30 17:20:08,860 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8jj8lbk)
+2024-10-30 17:20:08,860 Result is kept for 600 seconds
+2024-10-30 17:20:08,867 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 17:20:09,220 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 17:20:09,220 Result is kept for 600 seconds
+2024-10-30 17:21:41,167 Worker 115e958677544c6f85562310f8a5c3c7 [PID 4882]: warm shut down requested
+2024-10-30 17:21:41,203 Unsubscribing from channel rq:pubsub:115e958677544c6f85562310f8a5c3c7
+2024-10-30 17:29:46,352 Worker rq:worker:de46f5d8f18b47818a8e2a78281f494c started with PID 9883, version 1.16.2
+2024-10-30 17:29:46,356 Subscribing to channel rq:pubsub:de46f5d8f18b47818a8e2a78281f494c
+2024-10-30 17:29:46,365 *** Listening on workspace-frappe-bench:short, workspace-frappe-bench:default, workspace-frappe-bench:long...
+2024-10-30 17:29:46,368 Cleaning registries for queue: workspace-frappe-bench:short
+2024-10-30 17:29:46,396 Cleaning registries for queue: workspace-frappe-bench:default
+2024-10-30 17:29:46,410 Cleaning registries for queue: workspace-frappe-bench:long
+2024-10-30 17:32:01,100 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8b29180)
+2024-10-30 17:32:01,900 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8b29180)
+2024-10-30 17:32:01,900 Result is kept for 600 seconds
+2024-10-30 17:32:01,908 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b83ib571)
+2024-10-30 17:32:02,363 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b83ib571)
+2024-10-30 17:32:02,363 Result is kept for 600 seconds
+2024-10-30 17:32:02,370 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b84ohir3)
+2024-10-30 17:32:02,762 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b84ohir3)
+2024-10-30 17:32:02,763 Result is kept for 600 seconds
+2024-10-30 17:32:02,769 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'a9b8..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b849bqa6)
+2024-10-30 17:32:03,137 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b849bqa6)
+2024-10-30 17:32:03,137 Result is kept for 600 seconds
+2024-10-30 17:32:03,144 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.newsletter.newsletter.send_scheduled_ema..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b83omumv)
+2024-10-30 17:32:03,577 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b83omumv)
+2024-10-30 17:32:03,577 Result is kept for 600 seconds
+2024-10-30 17:32:03,584 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'a9b8j5mckk'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:32:04,083 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:32:04,083 Result is kept for 600 seconds
+2024-10-30 17:32:04,090 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:32:04,589 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:32:04,589 Result is kept for 600 seconds
+2024-10-30 17:32:04,596 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j9k1t4)
+2024-10-30 17:32:04,942 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j9k1t4)
+2024-10-30 17:32:04,943 Result is kept for 600 seconds
+2024-10-30 17:32:04,949 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_hourly_updates', 'sched..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8366j3n)
+2024-10-30 17:32:05,331 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8366j3n)
+2024-10-30 17:32:05,331 Result is kept for 600 seconds
+2024-10-30 17:32:05,337 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.link_count.update_link_count', 'scheduled_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8lr8u29)
+2024-10-30 17:32:05,767 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8lr8u29)
+2024-10-30 17:32:05,767 Result is kept for 600 seconds
+2024-10-30 17:32:05,774 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 17:32:06,123 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 17:32:06,123 Result is kept for 600 seconds
+2024-10-30 17:32:06,130 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.user_settings.sync_user_settings', 'schedu..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b85epbij)
+2024-10-30 17:32:06,518 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b85epbij)
+2024-10-30 17:32:06,518 Result is kept for 600 seconds
+2024-10-30 17:32:06,524 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'a9..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8fl6nsj)
+2024-10-30 17:32:06,995 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8fl6nsj)
+2024-10-30 17:32:06,995 Result is kept for 600 seconds
+2024-10-30 17:32:07,002 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.personal_data_deletion_request.persona..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8jj8lbk)
+2024-10-30 17:32:07,395 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8jj8lbk)
+2024-10-30 17:32:07,395 Result is kept for 600 seconds
+2024-10-30 17:32:07,402 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'a9b8aqcge3'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:32:07,762 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:32:07,762 Result is kept for 600 seconds
+2024-10-30 17:32:07,772 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b877j9mt)
+2024-10-30 17:32:08,142 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b877j9mt)
+2024-10-30 17:32:08,142 Result is kept for 600 seconds
+2024-10-30 17:32:08,149 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.page.backups.backups.delete_downloadable_backups'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b82gi5mn)
+2024-10-30 17:32:08,544 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b82gi5mn)
+2024-10-30 17:32:08,544 Result is kept for 600 seconds
+2024-10-30 17:32:08,550 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8u6flv8)
+2024-10-30 17:32:08,934 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8u6flv8)
+2024-10-30 17:32:08,934 Result is kept for 600 seconds
+2024-10-30 17:36:00,315 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:36:00,699 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:36:00,699 Result is kept for 600 seconds
+2024-10-30 17:36:00,705 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'a9b8j5mckk'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:36:01,170 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:36:01,170 Result is kept for 600 seconds
+2024-10-30 17:36:01,177 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'a9b8aqcge3'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:36:01,572 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:36:01,572 Result is kept for 600 seconds
+2024-10-30 17:36:01,580 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 17:36:01,973 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 17:36:01,974 Result is kept for 600 seconds
+2024-10-30 17:40:00,425 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 17:40:00,821 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 17:40:00,822 Result is kept for 600 seconds
+2024-10-30 17:40:00,828 Cleaning registries for queue: workspace-frappe-bench:short
+2024-10-30 17:40:00,829 Cleaning registries for queue: workspace-frappe-bench:default
+2024-10-30 17:40:00,830 Cleaning registries for queue: workspace-frappe-bench:long
+2024-10-30 17:40:00,832 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b877j9mt)
+2024-10-30 17:40:01,255 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b877j9mt)
+2024-10-30 17:40:01,255 Result is kept for 600 seconds
+2024-10-30 17:40:01,262 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:40:01,613 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:40:01,613 Result is kept for 600 seconds
+2024-10-30 17:40:01,619 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'a9b8aqcge3'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:40:01,965 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:40:01,966 Result is kept for 600 seconds
+2024-10-30 17:40:01,972 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'a9b8j5mckk'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:40:02,426 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:40:02,426 Result is kept for 600 seconds
+2024-10-30 17:44:00,619 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:44:01,228 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:44:01,228 Result is kept for 600 seconds
+2024-10-30 17:44:01,235 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'a9b8j5mckk'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:44:01,715 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:44:01,715 Result is kept for 600 seconds
+2024-10-30 17:44:01,723 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'a9b8aqcge3'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:44:02,094 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:44:02,094 Result is kept for 600 seconds
+2024-10-30 17:48:00,703 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b84ohir3)
+2024-10-30 17:48:01,252 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b84ohir3)
+2024-10-30 17:48:01,252 Result is kept for 600 seconds
+2024-10-30 17:48:01,264 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8u6flv8)
+2024-10-30 17:48:01,640 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8u6flv8)
+2024-10-30 17:48:01,640 Result is kept for 600 seconds
+2024-10-30 17:48:01,647 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'a9b8j5mckk'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:48:02,137 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:48:02,137 Result is kept for 600 seconds
+2024-10-30 17:48:02,144 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'a9b8..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b849bqa6)
+2024-10-30 17:48:02,531 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b849bqa6)
+2024-10-30 17:48:02,532 Result is kept for 600 seconds
+2024-10-30 17:48:02,543 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'a9..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8fl6nsj)
+2024-10-30 17:48:02,972 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8fl6nsj)
+2024-10-30 17:48:02,973 Result is kept for 600 seconds
+2024-10-30 17:48:02,982 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 17:48:03,345 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 17:48:03,345 Result is kept for 600 seconds
+2024-10-30 17:48:03,352 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:48:03,697 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:48:03,697 Result is kept for 600 seconds
+2024-10-30 17:48:03,704 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b83ib571)
+2024-10-30 17:48:04,134 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b83ib571)
+2024-10-30 17:48:04,134 Result is kept for 600 seconds
+2024-10-30 17:48:04,141 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j9k1t4)
+2024-10-30 17:48:04,606 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j9k1t4)
+2024-10-30 17:48:04,606 Result is kept for 600 seconds
+2024-10-30 17:48:04,612 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'a9b8aqcge3'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:48:04,948 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:48:04,948 Result is kept for 600 seconds
+2024-10-30 17:52:00,939 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'a9b8aqcge3'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:52:01,359 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:52:01,360 Result is kept for 600 seconds
+2024-10-30 17:52:01,366 Cleaning registries for queue: workspace-frappe-bench:short
+2024-10-30 17:52:01,367 Cleaning registries for queue: workspace-frappe-bench:default
+2024-10-30 17:52:01,368 Cleaning registries for queue: workspace-frappe-bench:long
+2024-10-30 17:52:01,370 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 17:52:01,755 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 17:52:01,755 Result is kept for 600 seconds
+2024-10-30 17:52:01,761 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b877j9mt)
+2024-10-30 17:52:02,211 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b877j9mt)
+2024-10-30 17:52:02,211 Result is kept for 600 seconds
+2024-10-30 17:52:02,217 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'a9b8j5mckk'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:52:02,665 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:52:02,666 Result is kept for 600 seconds
+2024-10-30 17:52:02,673 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:52:03,015 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:52:03,015 Result is kept for 600 seconds
+2024-10-30 17:56:00,135 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'a9b8aqcge3'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:56:00,622 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 17:56:00,622 Result is kept for 600 seconds
+2024-10-30 17:56:00,632 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'a9b8j5mckk'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:56:01,214 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 17:56:01,214 Result is kept for 600 seconds
+2024-10-30 17:56:01,222 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 17:56:01,596 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 17:56:01,596 Result is kept for 600 seconds
+2024-10-30 17:56:01,605 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:56:01,954 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 17:56:01,955 Result is kept for 600 seconds
+2024-10-30 18:00:00,248 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'a9b8..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b849bqa6)
+2024-10-30 18:00:00,666 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b849bqa6)
+2024-10-30 18:00:00,666 Result is kept for 600 seconds
+2024-10-30 18:00:00,673 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'a9b8aqcge3'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 18:00:01,135 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 18:00:01,135 Result is kept for 600 seconds
+2024-10-30 18:00:01,144 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b84ohir3)
+2024-10-30 18:00:01,596 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b84ohir3)
+2024-10-30 18:00:01,596 Result is kept for 600 seconds
+2024-10-30 18:00:01,604 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'a9b8j5mckk'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 18:00:02,147 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 18:00:02,147 Result is kept for 600 seconds
+2024-10-30 18:00:02,155 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.core.doctype.prepared_report.prepared_report.expire_st..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8m998k2)
+2024-10-30 18:00:02,531 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8m998k2)
+2024-10-30 18:00:02,531 Result is kept for 600 seconds
+2024-10-30 18:00:02,537 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 18:00:02,924 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 18:00:02,924 Result is kept for 600 seconds
+2024-10-30 18:00:02,934 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b877j9mt)
+2024-10-30 18:00:03,354 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b877j9mt)
+2024-10-30 18:00:03,354 Result is kept for 600 seconds
+2024-10-30 18:00:03,361 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b83ib571)
+2024-10-30 18:00:03,719 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b83ib571)
+2024-10-30 18:00:03,720 Result is kept for 600 seconds
+2024-10-30 18:00:03,727 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 18:00:04,070 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 18:00:04,070 Result is kept for 600 seconds
+2024-10-30 18:00:04,076 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j9k1t4)
+2024-10-30 18:00:04,460 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j9k1t4)
+2024-10-30 18:00:04,460 Result is kept for 600 seconds
+2024-10-30 18:00:04,466 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'a9..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8fl6nsj)
+2024-10-30 18:00:04,810 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8fl6nsj)
+2024-10-30 18:00:04,810 Result is kept for 600 seconds
+2024-10-30 18:00:04,817 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8u6flv8)
+2024-10-30 18:00:05,197 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8u6flv8)
+2024-10-30 18:00:05,197 Result is kept for 600 seconds
+2024-10-30 18:04:00,394 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'a9b8j5mckk'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 18:04:01,003 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 18:04:01,004 Result is kept for 600 seconds
+2024-10-30 18:04:01,010 Cleaning registries for queue: workspace-frappe-bench:short
+2024-10-30 18:04:01,012 Cleaning registries for queue: workspace-frappe-bench:default
+2024-10-30 18:04:01,013 Cleaning registries for queue: workspace-frappe-bench:long
+2024-10-30 18:04:01,015 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'a9b8aqcge3'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 18:04:01,413 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 18:04:01,414 Result is kept for 600 seconds
+2024-10-30 18:04:01,421 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 18:04:01,790 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 18:04:01,790 Result is kept for 600 seconds
+2024-10-30 18:08:00,619 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 18:08:01,088 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 18:08:01,088 Result is kept for 600 seconds
+2024-10-30 18:08:01,097 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'a9b8aqcge3'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 18:08:01,509 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 18:08:01,509 Result is kept for 600 seconds
+2024-10-30 18:08:01,516 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 18:08:01,879 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 18:08:01,880 Result is kept for 600 seconds
+2024-10-30 18:08:01,886 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'a9b8j5mckk'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 18:08:02,447 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 18:08:02,447 Result is kept for 600 seconds
+2024-10-30 18:12:00,764 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b877j9mt)
+2024-10-30 18:12:01,164 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b877j9mt)
+2024-10-30 18:12:01,164 Result is kept for 600 seconds
+2024-10-30 18:12:01,171 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'a9b8aqcge3'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 18:12:01,507 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 18:12:01,508 Result is kept for 600 seconds
+2024-10-30 18:12:01,514 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'a9b8j5mckk'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 18:12:01,999 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 18:12:01,999 Result is kept for 600 seconds
+2024-10-30 18:12:02,007 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 18:12:02,348 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 18:12:02,348 Result is kept for 600 seconds
+2024-10-30 18:12:02,354 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 18:12:02,756 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 18:12:02,757 Result is kept for 600 seconds
+2024-10-30 18:16:00,859 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j9k1t4)
+2024-10-30 18:16:01,360 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j9k1t4)
+2024-10-30 18:16:01,360 Result is kept for 600 seconds
+2024-10-30 18:16:01,366 Cleaning registries for queue: workspace-frappe-bench:short
+2024-10-30 18:16:01,368 Cleaning registries for queue: workspace-frappe-bench:default
+2024-10-30 18:16:01,369 Cleaning registries for queue: workspace-frappe-bench:long
+2024-10-30 18:16:01,371 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 18:16:01,731 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b7ovdbo7)
+2024-10-30 18:16:01,731 Result is kept for 600 seconds
+2024-10-30 18:16:01,737 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'a9b8..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b849bqa6)
+2024-10-30 18:16:02,149 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b849bqa6)
+2024-10-30 18:16:02,149 Result is kept for 600 seconds
+2024-10-30 18:16:02,155 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'a9b8j5mckk'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 18:16:03,846 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8j5mckk)
+2024-10-30 18:16:03,846 Result is kept for 600 seconds
+2024-10-30 18:16:03,856 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'a9..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8fl6nsj)
+2024-10-30 18:16:04,260 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8fl6nsj)
+2024-10-30 18:16:04,260 Result is kept for 600 seconds
+2024-10-30 18:16:04,267 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 18:16:04,664 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b862c33r)
+2024-10-30 18:16:04,664 Result is kept for 600 seconds
+2024-10-30 18:16:04,670 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b83ib571)
+2024-10-30 18:16:05,054 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b83ib571)
+2024-10-30 18:16:05,054 Result is kept for 600 seconds
+2024-10-30 18:16:05,061 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8u6flv8)
+2024-10-30 18:16:05,460 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8u6flv8)
+2024-10-30 18:16:05,460 Result is kept for 600 seconds
+2024-10-30 18:16:05,467 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b84ohir3)
+2024-10-30 18:16:06,008 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b84ohir3)
+2024-10-30 18:16:06,009 Result is kept for 600 seconds
+2024-10-30 18:16:06,016 workspace-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'a9b8aqcge3'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dev.localhost', user='Administrator') (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 18:16:06,397 workspace-frappe-bench:default: Job OK (dev.localhost::scheduled_job::a9b8aqcge3)
+2024-10-30 18:16:06,398 Result is kept for 600 seconds
